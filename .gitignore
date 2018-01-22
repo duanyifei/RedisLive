@@ -41,3 +41,6 @@ venv
 # private db
 src/db/db.sqlite
 src/redis-live.conf
+
+# pycharm
+.idea

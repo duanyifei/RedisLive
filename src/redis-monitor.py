@@ -222,7 +222,7 @@ class InfoThread(threading.Thread):
 
                 # stats_provider.SaveKeysInfo(self.id, current_time, expires, persists)
 
-                time.sleep(1)
+                time.sleep(60)
 
             except Exception, e:
                 tb = traceback.format_exc()
